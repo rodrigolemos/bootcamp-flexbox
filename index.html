@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Twitter - Curso Flexbox</title>
+</head>
+<body>
+  <header id="main-header">
+    <div class="content">
+      <nav>
+        <ul>
+          <li><img src="/images/home.svg" alt="Home">Home</li>
+          <li><img src="/images/notification.svg" alt="Notifications">Notifications</li>
+          <li><img src="/images/message.svg" alt="Message">Message</li>
+        </ul>
+      </nav>
+      <img src="/images/logo.svg" alt="Logo Twitter">
+      <div class="side">
+        <input type="text" placeholder="Search on Twitter">
+        <img src="/images/avatar.png" alt="Avatar">
+        <button>Tweet</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="banner">
+    <h1>Flexbox - Static Layout</h1>
+  </div>
+
+  <div class="bar">
+    <div class="content">
+      <ul>
+        <li class="active">
+          <span>Tweets</span>
+          <strong>1620</strong>
+        </li>
+        <li>
+          <span>Followings</span>
+          <strong>212</strong>
+        </li>
+        <li>
+          <span>Followers</span>
+          <strong>150</strong>
+        </li>
+        <li>
+          <span>Favorites</span>
+          <strong>1400</strong>
+        </li>
+      </ul>
+      <div class="actions">
+        <button>Follow</button>
+        <img src="/images/more.svg" alt="More">
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper-content content">
+    <aside class="profile">
+      <img class="avatar" src="/images/avatar.png" alt="Avatar">
+      <h1>Rodrigo Lemos</h1>
+      <span>@lemosfire</span>
+      <p>User bio</p>
+      <ul class="list">
+        <li>
+          <img src="/images/place.svg" alt="Place">
+          Namur, Belgium
+        </li>
+        <li>
+          <img src="/images/url.svg" alt="URL">
+          exibit.be
+        </li>
+        <li>
+          <img src="/images/joined.svg" alt="Joined">
+          Joined in June 2007
+        </li>
+        <li>
+          <img src="/images/born.svg" alt="Born">
+          12/12/1990
+        </li>
+      </ul>
+      <div class="widget followers">
+        <strong>
+          <img src="/images/followers.svg" alt="Followers">
+          73 followers that you know
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="widget images">
+        <strong>
+          <img src="/images/images.svg" alt="Images">
+          106 photos of you
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </aside>
+    <section class="timeline">
+      <nav>
+        <a href="" class="active">Tweets</a>
+        <a href="">Tweets and replies</a>
+        <a href="">Medias</a>
+      </nav>
+      <ul class="tweets">
+        <li>
+          <img src="/images/avatar.png" alt="Avatar">
+          <div class="info">
+            <strong>User <span>@user</span></strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis vitae amet culpa voluptatem distinctio reiciendis
+            similique, nesciunt aperiam. Dolores, dicta omnis tempora natus
+            mollitia non! Quae delectus explicabo minus obcaecati!</p>
+            <div class="actions">
+              <a href=""><img src="/images/comments.svg" alt="Comments">6</a>
+              <a href=""><img src="/images/retweet.svg" alt="Retweet">2</a>
+              <a href=""><img src="/images/like.svg" alt="Like">4</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar.png" alt="Avatar">
+          <div class="info">
+            <strong>User <span>@user</span></strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis vitae amet culpa voluptatem distinctio reiciendis
+            similique, nesciunt aperiam. Dolores, dicta omnis tempora natus
+            mollitia non! Quae delectus explicabo minus obcaecati!</p>
+            <div class="actions">
+              <a href=""><img src="/images/comments.svg" alt="Comments">6</a>
+              <a href=""><img src="/images/retweet.svg" alt="Retweet">2</a>
+              <a href=""><img src="/images/like.svg" alt="Like">4</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar.png" alt="Avatar">
+          <div class="info">
+            <strong>User <span>@user</span></strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis vitae amet culpa voluptatem distinctio reiciendis
+            similique, nesciunt aperiam. Dolores, dicta omnis tempora natus
+            mollitia non! Quae delectus explicabo minus obcaecati!</p>
+            <div class="actions">
+              <a href=""><img src="/images/comments.svg" alt="Comments">6</a>
+              <a href=""><img src="/images/retweet.svg" alt="Retweet">2</a>
+              <a href=""><img src="/images/like.svg" alt="Like">4</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar.png" alt="Avatar">
+          <div class="info">
+            <strong>User <span>@user</span></strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis vitae amet culpa voluptatem distinctio reiciendis
+            similique, nesciunt aperiam. Dolores, dicta omnis tempora natus
+            mollitia non! Quae delectus explicabo minus obcaecati!</p>
+            <div class="actions">
+              <a href=""><img src="/images/comments.svg" alt="Comments">6</a>
+              <a href=""><img src="/images/retweet.svg" alt="Retweet">2</a>
+              <a href=""><img src="/images/like.svg" alt="Like">4</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="">Refresh</a>
+          <a href="">View all</a>
+        </div>
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="/images/avatar.png" alt="Avatar">
+              <div class="info">
+                <strong>Spade <span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="/images/avatar.png" alt="Avatar">
+              <div class="info">
+                <strong>Spade <span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="/images/avatar.png" alt="Avatar">
+              <div class="info">
+                <strong>Spade <span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+</body>
+</html>
